@@ -4,12 +4,13 @@ import styled from "@emotion/styled";
 export const StatisticList = styled.ul`
 display: flex;
 flex-direction: column;
-gap: 8px;
-padding: 20px;
+list-style-type: none;
+padding: 50px;
 `
 
 export const StatisticItem = styled.li`
- font-size: 18px;
-  font-weight: 500;
+font-size: 24px;
+font-weight: 500;
+color: rgba(85, 80, 80, 0.911);
 
 `
