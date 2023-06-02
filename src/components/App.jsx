@@ -53,7 +53,7 @@ export class App extends React.Component {
           {totalFeedbacks ? (
             <Statistics
             good={good}
-            neutral={neutral}
+        neutral={neutral}
             bad={bad}
             total={totalFeedbacks}
             positiveFeedbacks={positiveFeedbacks}
